@@ -1,0 +1,191 @@
+
+body {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(236, 236, 206);
+}
+
+h1 {
+    text-shadow: 0px 0px 1px black;
+    text-align: center;
+    color: white;
+}
+
+.welcome {
+    padding-top: 10px;
+    width: 100%;
+    height: 190px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(yellow, blue);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: gray;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: underline;
+        }
+
+ .button:hover {
+            background-color: rgb(82, 82, 82);
+        }
+
+
+#flag-img {
+    width: 8%;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.menu-block {
+    padding-top: 10px;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-direction: line;
+    gap: 80px;
+    padding: 10px;
+    justify-content: center;
+    color:white;
+    align-items: center;
+    background-color: gray;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.backround {
+    display: flex;
+    gap: 40px; /* Расстояние между колонками */
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 100px;
+    padding: 20px;
+    width: 1200px;
+    margin-top: 5px;
+}
+
+#kiev-image {
+    width: 600px; /* Картинка заполняет всю колонку */
+    height: 50%;
+    border-radius: 8px; /* Скругленные углы */
+    flex: 0,5;
+}
+
+#kiev-text {
+    flex: 600px;
+    width: 600px; /* Картинка заполняет всю колонку */
+    height: 50%;  
+    justify-content: center;     
+}
+
+.span {
+    display: block;
+    margin-bottom: 15px; 
+}
+
+.span-headline {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+h3 {    
+    font-weight: bold;
+    margin-bottom: 2px; 
+    text-align: center;
+}
+
+.line{
+    text-align: center;
+    color:grey; 
+    margin-top: 2px; 
+    margin-bottom: 10px;
+}
+
+.before-block {
+    display: flex;
+    flex-direction: row; /* Размещение элементов в одну строку */
+    gap: 20px; /* Расстояние между изображениями */
+    padding: 20px;
+    justify-content: center; /* Центрирование изображений */
+    flex-wrap: wrap;
+    border-radius: 8px;
+}
+
+.before1-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("before1.png");
+    background-size: cover;
+}
+
+.before2-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
+    border: 1px 1px 1px 0px black;
+    border-radius: 10px;
+    background-image: url("before2.png");
+    background-size: cover;
+
+}
+
+.before3-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("befor3.png");
+    background-size: cover;
+}
+
+.before1-img:hover {
+    background-image: url("after1.png");
+}
+
+.before2-img:hover {
+    background-image: url("after2.png");
+}
+
+.before3-img:hover {
+    background-image: url("after3.png");
+}
+
+h2 {
+    text-align: center;
+    margin-top: 2px; 
+    margin-bottom: 10px;
+    
+}
+.end-block {
+    text-align: center;
+}
+
+#end-img {
+    width: 100%;
+    height: 250px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+
+
+}
+
+
+
