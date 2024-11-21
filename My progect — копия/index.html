@@ -1,13 +1,14 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
+        <title>My First Web Page</title>
     </head>
 
     <body>
       <div class="welcome">
-         <h1> Welcome to Ukraine </h1>
+         <h1 class="main-heading"> Welcome to Ukraine </h1>
          <img id="flag-img" src="https://praskaprint.com.ua/image/cache/catalog/Products/01%20Patriotic/010203-750x750.png">
-       </div>
+      </div>
         
        <nav id="menu">
        <div class="menu-block">
@@ -18,8 +19,12 @@
        </div>
        </nav>
 
+       <div>
        <div id="History of Ukraine" class="backround"> 
-         <img id="kiev-image" src="kiev.png">
+        <div class="background-container">
+         <img class="kiev-image" src="kiev.png" alt="Kiev is the capital of Ukraine">
+        </div>
+        <div class="background-container">
          <p class="kiev-text"> 
          <span class="span-headline"> History of Ukraine </span>
          <span class="span"> Kyiv, one of the oldest cities in Eastern Europe, has a rich history that dates back over 1,400 years. </span>
@@ -27,9 +32,11 @@
          <span class="span"> Under the leadership of Prince Volodymyr, Kyiv adopted Christianity in 988, which profoundly influenced Eastern European culture and religion. Despite facing invasions, including the Mongol destruction in 1240, Kyiv rose again, later becoming part of the Grand Duchy of Lithuania, the Polish-Lithuanian Commonwealth, and eventually the Russian Empire. </span>
          <span class="span"> In the 20th century, Kyiv played a key role in Ukraine's independence movement, which culminated in the dissolution of the Soviet Union in 1991, making Kyiv the capital of a free Ukraine. </span>
          <span class="span"> Today, it stands as a symbol of resilience and cultural heritage. </span> </p>
-       </div>
+        </div>
+        </div>
 
         <div id="Ukraine Culture" class="backround"> 
+          <div class="background-container">
           <p class="kiev-text"> 
           <span class="span-headline"> Ukraine Culture </span>
           <span class="span">Ukrainian culture is a vibrant blend of ancient traditions, folklore, and modern influences shaped by its rich history.</span>
@@ -37,18 +44,26 @@
           <span class="span">Folk music and the "Hopak" dance reflect the spirited character of the people, while pysanky (decorated Easter eggs) showcase intricate artistry and symbolism. </span>
           <span class="span"> Ukraines literature, art, and theater are deeply influenced by themes of resilience and identity, with artists like Taras Shevchenko embodying the nation's love for freedom. </span>
           <span class="span">Today, Ukrainian culture continues to evolve, blending old and new in a spirit of unity and pride. </span> </p>
-          <img id="kiev-image" src="cultyre.png">
+        </div>
+        <div class="background-container">
+          <img class="kiev-image" src="cultyre.png" alt="Ukrainian culture, image of a girl in traditional costumes">
+        </div>
          </div>
 
          <div id="War in Ukraine" class="backround"> 
-             <img id="kiev-image" src="war.png">
+          <div class="background-container"> 
+             <img class="kiev-image" src="war.png" alt="War in Ukraine, image of a destroyed building with the Ukrainian Flag">
+            </div>
+            <div class="background-container">
              <p class="kiev-text"> 
              <span class="span-headline"> War in Ukraine </span>
              <span class="span">The war in Ukraine, which began in 2014 with Russia's annexation of Crimea and escalated in February 2022 with a full-scale invasion, has caused immense human suffering and geopolitical upheaval. </span>
              <span class="span">The conflict has led to widespread displacement, destruction of infrastructure, and loss of life, while Ukraine's resilience and international support have strengthened its resolve. </span>
              <span class="span">The war has sparked global debates about sovereignty, territorial integrity, and the future of international relations. </span>
              <span class="span">Despite the ongoing violence, Ukraine continues to fight for its independence, with the world watching closely as the situation unfolds. </span> </p>
-         </div>
+            </div>
+            </div>
+        </div>
         
             
              <h3>Compare Before and After Images of the War</h3>
@@ -63,9 +78,11 @@
             <div class="end-bloc"> 
              <h3> <span class="end">Stand with Ukraine—join us in defending freedom, resilience, and hope.</span> </h2>
              <h3>  <span class="end">Together, we can make a difference!</span> </h2> 
+             <p class="line"> Learn more about Ukraine <a href="https://simple.wikipedia.org/wiki/Ukraine" target="_blank">here</a> </p>
              <img id="end-img" src="end-img.png">
             </div>
 
     </body>
+  </html>
 
    
